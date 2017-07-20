@@ -1,0 +1,30 @@
+plugins {
+  id 'scala'
+  id 'application'
+}
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+group = 'hotmeatballsoup'
+
+mainClassName = 'ideascalahateeachother.Driver'
+
+repositories {
+  jcenter()
+  mavenCentral()
+}
+
+dependencies {
+  compile(
+    'org.scala-lang:scala-library:2.12.1'
+  )
+
+  testCompile (
+    'junit:junit:4.12'
+  )
+}
+
+task wrapper(type: Wrapper) {
+  gradleVersion = '2.13'
+}
