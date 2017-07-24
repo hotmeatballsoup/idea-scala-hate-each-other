@@ -62,7 +62,7 @@ task (fizzbuzz) {
 }
 
 fizzbuzz.shouldRunAfter scalafmt
-scalafmt.shouldRunAfter build
+tasks['scalafmt'].shouldRunAfter build
 
 manifest {
   attributes 'Main-Class': mainClassName

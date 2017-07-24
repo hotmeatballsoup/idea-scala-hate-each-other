@@ -4,7 +4,7 @@ products:
    src/main/scala/ideascalahateeachother/Driver.scala -> build/classes/main/ideascalahateeachother/Driver.class
 binary dependencies:
    src/main/scala/ideascalahateeachother/Driver.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_141.jdk/Contents/Home/jre/lib/rt.jar
-   src/main/scala/ideascalahateeachother/Driver.scala -> /Users/zac.harvey/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.1/dd235d04037dc6f4b6090257872dd35359a563ce/scala-library-2.12.1.jar
+   src/main/scala/ideascalahateeachother/Driver.scala -> /Users/zac.harvey/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.11/e283d2b7fde6504f6a86458b1f6af465353907cc/scala-library-2.11.11.jar
 source dependencies:
 external dependencies:
 class names:
