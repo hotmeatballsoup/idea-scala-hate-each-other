@@ -58,11 +58,14 @@ task wrapper(type: Wrapper) {
 }
 
 task (fizzbuzz) {
-  println "Fizzbuzz!"
+  doLast {
+    println "Fizzbuzz!"
+  }
 }
 
-fizzbuzz.shouldRunAfter scalafmt
-tasks['scalafmt'].shouldRunAfter build
+task fullBuild {
+    dependsOn 'clean', 'build', 'scalafmt', 'shadowJar', 'fizzbuzz'
+}
 
 manifest {
   attributes 'Main-Class': mainClassName
